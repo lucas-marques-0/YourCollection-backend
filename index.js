@@ -10,7 +10,9 @@ const supabaseUrl = process.env.SUPABASE_URL
 const supabaseKey = process.env.SUPABASE_KEY
 const supabase = createClient(supabaseUrl, supabaseKey)
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://your-collection.vercel.app'
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
