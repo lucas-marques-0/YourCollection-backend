@@ -55,7 +55,7 @@ app.post('/signout', async (req, res) => {
     try {
         const { error } = await supabase.auth.signOut();
         if (error) {
-            res.status(500).json({ success: false, message: 'Erro durante o logout' });
+            res.status(500).json({ success: false, message: error });
         } else {
             res.json({ success: true, message: 'Logout bem-sucedido' });
         }
