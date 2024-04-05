@@ -1,4 +1,4 @@
-# YourCollection [Front-end]
+# YourCollection [Back-end]
 
 ![1](https://github.com/lucas-marques-0/YourCollection-frontend/assets/111307314/e4f1a409-e72e-4ef0-b576-86735bf52e0b)
 
